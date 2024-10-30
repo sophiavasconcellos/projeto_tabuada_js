@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+    <div class="main-title-container">
+        <h2 class="main-title">Tabuada: O Segredo das Multiplicações</h2>
+        <p>A tabuada é uma tabela numérica usada para facilitar o aprendizado e a 
+        memorização das operações matemáticas básicas, especialmente a multiplicação. 
+        Tradicionalmente, ela mostra os produtos dos números inteiros de 1 a 10 (ou
+         até 12) multiplicados entre si. Cada linha e coluna da tabela representa 
+         um número de 1 a 10, e a interseção de uma linha e uma coluna apresenta o 
+         produto desses números.</p>
+    </div>
+    <div class="multiplication-table-container">
+        <h3>Descubra a Tabuada do Número Escolhido:</h3> 
+        <form id="multiplication-form">
+            <div class="numbers-container">
+            <div class="form-control">
+                
+                <label for="number">Multiplicando:</label>
+                <input type="number" name="number" id="number" placeholder="0">
+            </div>
+            <div class="form-control">
+                
+                <label for="multiplicator">Multiplicar até:</label>
+                <input type="number" name="multiplicator" id="multiplicator" placeholder="0">
+            </div>
+            </div>
+            <input type="submit" value="Multiplicar" class="submit-button">
+        </form>
+
+        <div id="multiplication-table">
+            <h2 id="multiplication-title">Tabuada do número: <br> <span></span></h2>
+            <div id="multiplication-operations">
+                <p>Digite um número <br> para ver sua tabuada completa</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+</body>
+</html>
